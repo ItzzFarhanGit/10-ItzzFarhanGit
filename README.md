@@ -50,6 +50,7 @@
 - 📧 Email: **farhanfaleel9@gmail.com**
 - 💻 GitHub: **github.com/ItzzFarhanGit**
 - 💼 LinkedIn: **www.linkedin.com/in/mohamedfarhan-it**
+- 🌐 Portfolio: **https://farvo.netlify.app**
 
 ---
 
