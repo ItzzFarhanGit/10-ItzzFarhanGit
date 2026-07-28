@@ -1,3 +1,4 @@
+
 <h1 align="center">Hi 👋, I'm Mohamed Farhan</h1>
 
 <h3 align="center">
@@ -10,6 +11,7 @@
 
 # 👨‍💻 About Me
 
+- 🌐 Portfolio: **https://farvo.netlify.app**
 - 🎓 Higher National Diploma in Information Technology (HNDIT) Student.
 - 💻 Passionate Full Stack Web Developer with experience in building responsive web applications.
 - ⚛️ Skilled in Frontend and Backend Development using HTML, CSS, JavaScript, Bootstrap, React.js, PHP, Node.js, Express.js, MySQL, and MongoDB.
@@ -26,6 +28,10 @@
 # 🌐 Connect With Me
 
 <p align="left">
+
+<a href="https://farvo.netlify.app">
+<img src="https://img.shields.io/badge/Portfolio-FF3B30?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
 
 <a href="https://www.linkedin.com/in/mohamedfarhan-it">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
@@ -173,6 +179,20 @@
 - ⏱️ Time Management
 - 🚀 Fast Learner
 - 💼 Professional Work Ethics
+
+---
+
+# 🌐 My Portfolio
+
+<p align="center">
+<a href="https://farvo.netlify.app">
+<img src="https://img.shields.io/badge/Visit%20My%20Portfolio-FARVO%20Digital-red?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
+</p>
+
+> 🚀 Explore my portfolio to view my latest web development projects, UI/UX designs, branding work, and creative digital solutions.
+
+🔗 **Website:** https://farvo.netlify.app
 
 ---
 
