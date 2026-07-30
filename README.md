@@ -11,7 +11,7 @@
 
 # 👨‍💻 About Me
 
-- 🌐 Portfolio: **https://farvo.netlify.app**
+- 🌐 Portfolio: **https://farvodigital.netlify.app**
 - 🎓 Higher National Diploma in Information Technology (HNDIT) Student.
 - 💻 Passionate Full Stack Web Developer with experience in building responsive web applications.
 - ⚛️ Skilled in Frontend and Backend Development using HTML, CSS, JavaScript, Bootstrap, React.js, PHP, Node.js, Express.js, MySQL, and MongoDB.
@@ -50,7 +50,7 @@
 - 📧 Email: **farhanfaleel9@gmail.com**
 - 💻 GitHub: **github.com/ItzzFarhanGit**
 - 💼 LinkedIn: **www.linkedin.com/in/mohamedfarhan-it**
-- 🌐 Portfolio: **https://farvo.netlify.app**
+- 🌐 Portfolio: **https://farvodigital.netlify.app**
 
 ---
 
@@ -193,7 +193,7 @@
 
 > 🚀 Explore my portfolio to view my latest web development projects, UI/UX designs, branding work, and creative digital solutions.
 
-🔗 **Website:** https://farvo.netlify.app
+🔗 **Website:** https://farvodigital.netlify.app
 
 ---
 
