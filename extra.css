@@ -62,7 +62,8 @@ table.cmp{border-collapse:collapse;min-width:860px;width:100%;font-size:.85rem}
 .cert-chip{font:500 .8rem Poppins,sans-serif;padding:8px 14px;border-radius:99px;background:var(--card);border:1px solid var(--card-border);color:var(--text);cursor:pointer}
 .cert-chip b{color:var(--secondary);margin-left:4px}.cert-chip.on{background:var(--grad);color:#fff;border-color:transparent}.cert-chip.on b{color:#fff}
 .cert-search{padding:10px 16px;border-radius:99px;background:var(--card);border:1px solid var(--card-border);color:var(--text);font-size:16px;min-width:230px;outline:0}
-.cert-card .cert-thumb{height:90px;overflow:hidden}
+.cert-card .cert-thumb{width:100%;aspect-ratio:auto;height:180px;overflow:hidden;opacity:1}
+.cert-card .cert-thumb img{object-position:top center}
 .cert-empty{color:var(--text-dim);padding:30px 0}
 @media(max-width:600px){.cert-search{width:100%}}
 
