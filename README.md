@@ -1,35 +1,146 @@
-
-<h1 align="center">Hi 👋, I'm Mohamed Farhan</h1>
+<h1 align="center">🌐 FARVO Digital · Portfolio Website</h1>
 
 <h3 align="center">
-💻 Full Stack Web Developer | UI/UX Designer | Creative Editor | IT Student
+💻 Company Portfolio + Personal Portfolio of Mohamed Farhan
 </h3>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=1100&lines=Full+Stack+Web+Developer;HTML+%7C+CSS+%7C+JavaScript+%7C+React.js;PHP+%7C+Node.js+%7C+Express.js;C%23+%7C+Java+%7C+Python;MySQL+%7C+MongoDB;UI%2FUX+Designer+%26+Creative+Editor;English+Language+Instructor;Always+Learning+New+Technologies!" />
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=900&lines=FARVO+Digital+%7C+Company+Portfolio;Mohamed+Farhan+%7C+Personal+Portfolio;Full+Stack+Web+Developer+%26+UI%2FUX+Designer;HTML+%7C+CSS+%7C+JavaScript;Fully+Responsive+%7C+Mobile+Friendly" />
+</p>
+
+<p align="center">
+<a href="https://farvodigital.netlify.app">
+<img src="https://img.shields.io/badge/Company%20Site-FARVO%20Digital-FF3B30?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
+<a href="https://farvodigital.netlify.app/personal.html">
+<img src="https://img.shields.io/badge/Personal%20Portfolio-Mohamed%20Farhan-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
+</p>
 
 ---
 
-# 👨‍💻 About Me
+# 📖 About This Repository
 
-- 🌐 Portfolio: **https://farvodigital.netlify.app**
-- 🎓 Higher National Diploma in Information Technology (HNDIT) Student.
-- 💻 Passionate Full Stack Web Developer with experience in building responsive web applications.
-- ⚛️ Skilled in Frontend and Backend Development using HTML, CSS, JavaScript, Bootstrap, React.js, PHP, Node.js, Express.js, MySQL, and MongoDB.
-- 🎨 UI/UX Designer using Adobe Creative Cloud applications.
-- 🖌️ Graphic Designer with experience in Adobe Photoshop, Illustrator, XD, Lightroom, and Adobe Express.
-- 🎬 Creative Video Editor using Adobe Premiere Pro, After Effects, Audition, Media Encoder, and CapCut.
-- 📊 Proficient in Microsoft Office (Word, Excel, PowerPoint & Access).
-- 👨‍🏫 English Language Instructor with excellent teaching and mentoring skills.
-- 💬 Strong Communication Skills with fluency in English and Tamil.
-- 🎤 Confident in Public Speaking, Presentations, Leadership, and Team Collaboration.
-- 🚀 Always learning new technologies and improving my technical skills.
-- 🤝 Open to collaborating on innovative software development projects.
+This repository contains **two websites**, built with plain HTML, CSS and JavaScript (frontend only) and hosted on Netlify.
+
+| Page | Description | Link |
+|------|-------------|------|
+| 🏢 `index.html` | **FARVO Digital** company portfolio: services, works, pricing in LKR, testimonials, FAQ, contact | [farvodigital.netlify.app](https://farvodigital.netlify.app) |
+| 👨‍💻 `personal.html` | **Mohamed Farhan's** personal portfolio: skills, education, projects, 76 certificates | [personal.html](https://farvodigital.netlify.app/personal.html) |
+
+---
+
+# ✨ Features
+
+## 🏢 Company Website
+
+- 🎬 Animated hero with typing effect, floating logo card and particle background
+- 🛠️ 12 services with clear descriptions
+- 🔄 6-step working process
+- 💰 Pricing cards in Sri Lankan Rupees with a package comparison table
+- 🚀 Works section with filters, details popup and **Live Demo** links
+- 💬 Client testimonials from company leaders
+- 🤖 FARVO Assistant, a small FAQ chat widget
+- 📲 WhatsApp floating button and contact form (Netlify Forms)
+
+## 👨‍💻 Personal Portfolio
+
+- 📜 **76 certificates** with search, category filters and image preview
+- 🔗 Verify-on-LinkedIn button for every certificate
+- 🎓 Education, skills and experience sections
+- 🧩 Project showcase with Live Demo links
+- 📄 Downloadable CV
+
+## 🌙 Both Sites
+
+- Dark / light theme toggle
+- Fully responsive (mobile, tablet, desktop)
+- Smooth scroll animations
+- SEO friendly (meta tags, sitemap, robots.txt)
+
+---
+
+# 🚀 Featured Projects
+
+| Project | Tech Stack | Live |
+|---------|------------|------|
+| 🛍️ ShoeLand: Online Shoe Store | PHP • MySQL • Bootstrap | [Visit](http://farvo-shoeland.atwebpages.com/index.php) |
+| 🤖 FARVO AI Chatbot | Google Gemini • JavaScript • Vercel | [Visit](https://farvo-ai-chatbot.vercel.app) |
+| 📚 Online Bookstore System | HTML • CSS • JavaScript • PHP • MySQL | Soon |
+| 🚗 Online Car Booking System | HTML • CSS • JavaScript • PHP • MySQL | Soon |
+| 🏥 Online Clinic Management System | HTML • CSS • JavaScript • PHP • MySQL | Soon |
+| 🧪 Medical Laboratory Management System | HTML • CSS • JavaScript • PHP • MySQL | Soon |
+| 👨‍💼 Employee Management System | HTML • CSS • JavaScript • PHP • MySQL | Soon |
+| 🎉 Event Management System | HTML • CSS • JavaScript • PHP • MySQL | Soon |
+| 🍔 Online Food Ordering System | HTML • CSS • JavaScript • PHP • MySQL | Soon |
+| 🔨 Online Hardware Shop | HTML • CSS • JavaScript • PHP • MySQL | Soon |
+| 🔍 Lost & Found Items Tracking System | HTML • CSS • JavaScript • PHP • MySQL | Soon |
+| 📖 Smart Class Attendance System | HTML • CSS • JavaScript • PHP • MySQL | Soon |
+| 🎓 Student Assist System | HTML • CSS • JavaScript • PHP • MySQL | Soon |
+| 💍 Online Wedding Hall Booking System | HTML • CSS • JavaScript • PHP • MySQL | Soon |
+| 💼 Internship & Placement App with Auto CV Builder | HTML • CSS • JavaScript • PHP • MySQL | Soon |
+| 📍 Eastern Business Directory | HTML • CSS • JavaScript • PHP • MySQL | Soon |
+| 🏫 College Management System (OCR) | HTML • CSS • JavaScript • PHP • MySQL | Soon |
+
+---
+
+# 💻 Built With
+
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode,netlify"/>
+</p>
+
+- HTML5, CSS3, JavaScript (ES6+)
+- AOS, Typed.js, Vanilla Tilt, Font Awesome
+- Git & GitHub, deployed on Netlify
+
+---
+
+# 📁 Project Structure
+
+```
+📦 10-ItzzFarhanGit
+ ┣ 📄 index.html        → Company portfolio
+ ┣ 📄 personal.html     → Personal portfolio
+ ┣ 📄 shared.js         → Projects & certificates data (edit here)
+ ┣ 🎨 base.css          → Main styles
+ ┣ 🎨 extra.css         → Modal, pricing & animation styles
+ ┣ 📂 certificates/     → Certificate images
+ ┣ 🖼️ shoeland.png, farvo-ai-chatbot.png ... project screenshots
+ ┣ 📄 sitemap.xml
+ ┗ 📄 robots.txt
+```
+
+---
+
+# 🛠️ How To Edit
+
+| I want to... | Do this |
+|--------------|---------|
+| ➕ Add or edit a project | Edit the `PROJECTS` list in `shared.js` |
+| 🔗 Add a Live Demo link | Set `live:"https://..."` for that project in `shared.js` |
+| 📜 Add a certificate | Put the image in `certificates/` and add a line to `CERTS` in `shared.js` |
+| 💰 Change prices | Edit the `PLANS` list inside `index.html` |
+| 📞 Change contact details | Search for the phone / email in `index.html` and `personal.html` |
+
+---
+
+# ▶️ Run Locally
+
+```bash
+git clone https://github.com/ItzzFarhanGit/10-ItzzFarhanGit.git
+cd 10-ItzzFarhanGit
+```
+
+Open `index.html` in your browser, or use the **Live Server** extension in VS Code. No build step needed.
+
+---
 
 # 🌐 Connect With Me
 
 <p align="left">
 
-<a href="https://farvo.netlify.app">
+<a href="https://farvodigital.netlify.app">
 <img src="https://img.shields.io/badge/Portfolio-FF3B30?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
 
@@ -45,259 +156,27 @@
 <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail"/>
 </a>
 
+<a href="https://wa.me/94773042864">
+<img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+</a>
+
 </p>
 
 - 📧 Email: **farhanfaleel9@gmail.com**
-- 💻 GitHub: **github.com/ItzzFarhanGit**
+- 📱 WhatsApp: **+94 77 304 2864**
 - 💼 LinkedIn: **www.linkedin.com/in/mohamedfarhan-it**
-- 🌐 Portfolio: **https://farvodigital.netlify.app**
-
----
-
-# 💻 Technical Skills
-
-## 💻 Programming Languages
-
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js,php,cs,java,python"/>
-</p>
-
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- PHP
-- C#
-- Java
-- Python
-
----
-
-## 🌐 Frontend Development
-
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,react"/>
-</p>
-
-- HTML5
-- CSS3
-- JavaScript
-- Bootstrap
-- React.js
-
----
-
-## ⚙️ Backend Development
-
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,php"/>
-</p>
-
-- PHP
-- Node.js
-- Express.js
-
----
-
-## 🗄️ Database
-
-<p>
-<img src="https://skillicons.dev/icons?i=mysql,mongodb"/>
-</p>
-
-- MySQL
-- MongoDB
-
----
-
-## 🎨 UI/UX & Graphic Design
-
-<p>
-<img src="https://skillicons.dev/icons?i=figma"/>
-</p>
-
-- Adobe Photoshop
-- Adobe Illustrator
-- Adobe XD
-- Adobe Lightroom
-- Adobe Express
-- UI/UX Design
-- Logo Design
-- Banner Design
-- Poster Design
-- Social Media Design
-
----
-
-## 🎬 Video Editing
-
-- Adobe Premiere Pro
-- Adobe After Effects
-- Adobe Audition
-- Adobe Media Encoder
-- CapCut
-
----
-
-## 🛠️ Development Tools
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,visualstudio,postman,npm"/>
-</p>
-
-- Visual Studio Code
-- Visual Studio
-- Git
-- GitHub
-- XAMPP
-- Postman
-- npm
-
----
-
-## 📊 Microsoft Office
-
-- Microsoft Word
-- Microsoft Excel
-- Microsoft PowerPoint
-- Microsoft Access
-
----
-
----
-
-# 💼 Professional Skills
-
-- 👨‍🏫 English Language Teaching
-- 🗣️ Excellent Communication Skills
-- 🌍 Fluent in English & Tamil
-- 🎤 Public Speaking & Presentation
-- 🤝 Team Collaboration
-- 👥 Leadership
-- 📋 Project Management
-- 🧠 Problem Solving
-- 💡 Critical Thinking
-- 📚 Research & Documentation
-- ⏱️ Time Management
-- 🚀 Fast Learner
-- 💼 Professional Work Ethics
-
----
-
-# 🌐 My Portfolio
-
-<p align="center">
-<a href="https://farvo.netlify.app">
-<img src="https://img.shields.io/badge/Visit%20My%20Portfolio-FARVO%20Digital-red?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-</a>
-</p>
-
-> 🚀 Explore my portfolio to view my latest web development projects, UI/UX designs, branding work, and creative digital solutions.
-
-🔗 **Website:** https://farvodigital.netlify.app
-
----
-
-# 🚀 Featured Projects
-
-| Project | Tech Stack |
-|---------|------------|
-| 📚 Online Bookstore System | HTML • CSS • JavaScript • PHP • MySQL |
-| 🚗 Online Car Booking System | HTML • CSS • JavaScript • PHP • MySQL |
-| 🏥 Online Clinic Management System | HTML • CSS • JavaScript • PHP • MySQL |
-| 📋 Management System | HTML • CSS • JavaScript • PHP • MySQL |
-| 📍 Eastern Business Directory | HTML • CSS • JavaScript • PHP • MySQL |
-| 👨‍💼 Employee Management System | HTML • CSS • JavaScript • PHP • MySQL |
-| 🎉 Event Management System | HTML • CSS • JavaScript • PHP • MySQL |
-| 🍔 Food Ordering System | HTML • CSS • JavaScript • PHP • MySQL |
-| 🍽️ Online Food Ordering System | HTML • CSS • JavaScript • PHP • MySQL |
-| 🔨 Online Hardware Shop | HTML • CSS • JavaScript • PHP • MySQL |
-| 🔍 Lost & Found Items Tracking System | HTML • CSS • JavaScript • PHP • MySQL |
-| 📖 Smart Class Attendance System | HTML • CSS • JavaScript • PHP • MySQL |
-| 🎓 Student Assist System | HTML • CSS • JavaScript • PHP • MySQL |
-| 💍 Online Wedding Hall Booking System | HTML • CSS • JavaScript • PHP • MySQL |
-| 💼 Internship & Placement App with Auto CV Builder | HTML • CSS • JavaScript • PHP • MySQL |
-| 🧪 Medical Laboratory Management System | HTML • CSS • JavaScript • PHP • MySQL |
-
-> **Technologies Used Across My Projects**
-
-`HTML5` • `CSS3` • `JavaScript` • `Bootstrap` • `React.js` • `PHP` • `Node.js` • `Express.js` • `MySQL` • `MongoDB` • `C#` • `Java` • `Python`
-
-# 📊 GitHub Stats
-
-<p align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ItzzFarhanGit&show_icons=true&theme=tokyonight&hide_border=true"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ItzzFarhanGit&layout=compact&theme=tokyonight&hide_border=true"/>
-</p>
-
----
-
-# 🔥 GitHub Streak
-
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ItzzFarhanGit&theme=tokyonight&hide_border=true"/>
-</p>
-
----
-
-# 📈 Contribution Graph
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ItzzFarhanGit&theme=tokyo-night"/>
-</p>
-
----
-
-# 🏆 GitHub Trophies
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=ItzzFarhanGit&theme=tokyonight&no-frame=true&margin-w=10"/>
-</p>
-
----
-
-# 🌱 Currently Learning
-
-- React.js (Advanced Concepts)
-- Next.js
-- Flutter
-- TypeScript
-- Docker
-- AWS Cloud
-- System Design
-- Backend Architecture
-- REST APIs
-- DevOps Basics
----
-
-# 🎯 Career Goals
-
-- 🚀 Become a Professional Full Stack Software Engineer
-- 🌍 Contribute to Open Source Projects
-- 💼 Build Enterprise-Level Applications
-- 📱 Develop Modern Web & Mobile Applications
-- ☁ Master Cloud Computing & DevOps
-- 🎨 Become an Expert UI/UX Designer
-- 🎬 Improve Creative Editing Skills
-- 👨‍🏫 Continue Teaching English and Helping Others Learn
-
----
-
-# 💡 Favorite Quote
-
-> **"Code is like humor. When you have to explain it, it's bad."** — Cory House
-
----
-
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=ItzzFarhanGit&label=Profile+Views&color=0e75b6&style=flat"/>
-</p>
+- 🌐 Website: **https://farvodigital.netlify.app**
 
 ---
 
 <h3 align="center">
-⭐ Thanks for visiting my profile! ⭐
+⭐ Thanks for visiting! ⭐
 </h3>
 
 <p align="center">
-If you like my work, don't forget to ⭐ my repositories and connect with me on LinkedIn.
+If you like this project, don't forget to ⭐ the repository and connect with me on LinkedIn.
+</p>
+
+<p align="center">
+© 2026 FARVO Digital. All rights reserved.
 </p>
