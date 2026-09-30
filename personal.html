@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FARVO — Mohamed Farhan | Full Stack Developer & UI/UX Designer</title>
+<meta name="description" content="FARVO — Mohamed Farhan. Full Stack Web Developer, UI/UX Designer, Creative Editor & IT Student. Premium portfolio & software services.">
+<link rel="icon" type="image/png" href="farvo-logo.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="FARVO — Mohamed Farhan | Full Stack Developer & UI/UX Designer">
+<meta property="og:description" content="Full Stack Web Developer, UI/UX Designer, Creative Editor & IT Student. Premium portfolio & software services.">
+<meta property="og:image" content="farvo-logo.png">
+<meta property="og:locale" content="en_LK">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FARVO — Mohamed Farhan | Full Stack Developer & UI/UX Designer">
+<meta name="twitter:description" content="Full Stack Web Developer, UI/UX Designer, Creative Editor & IT Student. Premium portfolio & software services.">
+<meta name="twitter:image" content="farvo-logo.png">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="extra.css">
+</head>
+<body>
+
+
+<div id="loader">
+  <img src="farvo-logo.png" alt="FARVO" style="width:76px;height:76px;border-radius:50%;">
+  <div class="loader-logo">FAR<span style="color:var(--secondary)">VO</span></div>
+  <div class="loader-bar"><span></span></div>
+</div>
+
+
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+<div class="mouse-glow"></div>
+
+
+<div class="aurora"><span></span><span></span><span></span></div>
+<canvas id="particles"></canvas>
+
+
+<header id="header">
+  <div class="container">
+    <nav>
+      <a href="#home" class="logo"><img src="farvo-logo.png" alt="FARVO logo" class="logo-mark">FAR<span>VO</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a><a href="index.html">Company</a>
+      </div>
+      <div class="nav-actions">
+        <button class="mode-toggle" id="modeToggle"><i class="fa-solid fa-moon"></i></button>
+        <a href="Mohamed_Farhan_CV.pdf" download class="btn btn-ghost nav-cv-btn"><i class="fa-solid fa-download"></i> CV</a>
+        <a href="#contact" class="btn btn-primary" style="padding:11px 24px;font-size:.85rem;">Hire Me</a>
+        <button class="burger" id="burgerBtn"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-close" id="mobileClose"><i class="fa-solid fa-xmark"></i></div>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#leadership">Leadership</a>
+  <a href="#certificates">Certificates</a>
+  <a href="#contact">Contact</a><a href="index.html">Company</a>
+  <a href="Mohamed_Farhan_CV.pdf" download style="color:var(--secondary);"><i class="fa-solid fa-download"></i> Download CV</a>
+</div>
+
+
+<section class="hero" id="home">
+  <div class="logo-showcase-frame" data-tilt>
+    <img src="farvo-full-logo.png" alt="FARVO Full Logo">
+    <span class="logo-cursor"></span>
+  </div>
+  <div class="container hero-grid">
+    <div>
+      <div class="hero-tag" data-aos="fade-up"><span class="dot"></span> Available for freelance & internship</div>
+      <h1 data-aos="fade-up" data-aos-delay="80">Building sharp digital<br>products as <span class="grad-text">FARVO</span></h1>
+      <div class="hero-role" data-aos="fade-up" data-aos-delay="140">I'm Mohamed Farhan — <span id="typed"></span></div>
+      <p class="desc" data-aos="fade-up" data-aos-delay="200">Full stack developer and UI/UX designer crafting fast, elegant web applications — from database architecture to pixel-perfect interfaces, backed by a creative editing eye.</p>
+      <div class="glass hero-brand-card" data-aos="fade-up" data-aos-delay="240">
+        <img src="farvo-logo.png" alt="FARVO logo" class="hero-brand-logo">
+        <div>
+          <h5>FARVO</h5>
+          <p>Full Stack Development &amp; Design Studio</p>
+        </div>
+      </div>
+      <div class="hero-btns" data-aos="fade-up" data-aos-delay="280">
+        <a href="#projects" class="btn btn-primary">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="index.html" class="btn btn-ghost">FARVO Company <i class="fa-solid fa-building"></i></a>
+        <a href="Mohamed_Farhan_CV.pdf" download class="btn btn-ghost">Download CV <i class="fa-solid fa-download"></i></a>
+      </div>
+      <div class="hero-socials" data-aos="fade-up" data-aos-delay="320">
+        <a href="https://www.linkedin.com/in/mohamedfarhan-it" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://wa.me/94773042864" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="mailto:farhanfarvo@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-visual" data-aos="fade-left" data-aos-delay="200">
+      <div class="orbit-card" data-tilt>
+        <img src="farhan-photo.jpeg" alt="Mohamed Farhan" class="orbit-photo">
+        <div class="orbit-scrim"></div>
+        <div class="info">
+          <h4>Mohamed Farhan</h4>
+          <p>Founder & CEO · FARVO — Full Stack Developer · UI/UX Designer</p>
+        </div>
+      </div>
+      <div class="float-chip glass chip1"><i class="fa-brands fa-react" style="color:#61dafb"></i> React.js</div>
+      <div class="float-chip glass chip2"><i class="fa-brands fa-php" style="color:#8993be"></i> PHP / MySQL</div>
+      <div class="float-chip glass chip3"><i class="fa-solid fa-palette" style="color:#8B5CF6"></i> UI/UX</div>
+    </div>
+  </div>
+  <div class="scroll-indicator"><span>SCROLL</span><div class="line"></div></div>
+</section>
+
+
+<section id="about">
+  <div class="container about-grid">
+    <div data-aos="fade-right">
+      <div class="about-photo glass">
+        <img src="farhan-photo.jpeg" alt="Mohamed Farhan — Founder & CEO, FARVO">
+        <div class="ph-inner"></div>
+        <div class="about-photo-tag"><img src="farvo-logo.png" alt="FARVO"><span>FARVO</span></div>
+      </div>
+    </div>
+    <div data-aos="fade-left">
+      <span class="eyebrow">About Me</span>
+      <h2 class="section-title">Turning ideas into <span>usable products</span></h2>
+      <p style="color:var(--text-dim);line-height:1.85;margin-bottom:20px;">I'm an IT student and full stack developer who enjoys owning a product end to end — designing the interface, building the backend, and polishing the final motion and detail. My work blends structured engineering with a creative editor's instinct for pacing and visual clarity.</p>
+      <p style="color:var(--text-dim);line-height:1.85;">Outside of code, I work across graphic design, video editing, and English language teaching — a mix that keeps my design and communication sense sharp.</p>
+      <ul class="about-list">
+        <li><i class="fa-solid fa-check"></i> Full Stack Development</li>
+        <li><i class="fa-solid fa-check"></i> UI/UX Design</li>
+        <li><i class="fa-solid fa-check"></i> Creative Editing</li>
+        <li><i class="fa-solid fa-check"></i> Database Architecture</li>
+      </ul>
+      <div class="about-stats">
+        <div class="glass stat-box"><h3 class="counter" data-target="17">0</h3><p>Projects Built</p></div>
+        <div class="glass stat-box"><h3 class="counter" data-target="12">0</h3><p>Tech Stacks</p></div>
+        <div class="glass stat-box"><h3 class="counter" data-target="3">0</h3><p>Years Learning</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="services" style="background:var(--bg-alt);">
+  <div class="container">
+    <span class="eyebrow" data-aos="fade-up">What I Offer</span>
+    <h2 class="section-title" data-aos="fade-up">Services built around <span>real needs</span></h2>
+    <p class="section-sub" data-aos="fade-up">From backend architecture to brand visuals — a full toolkit under one roof.</p>
+    <div class="services-grid">
+      <div class="glass service-card" data-aos="fade-up" data-aos-delay="0"><i class="fa-solid fa-code"></i><h4>Full Stack Development</h4><p>End-to-end web apps with clean, scalable architecture.</p></div>
+      <div class="glass service-card" data-aos="fade-up" data-aos-delay="60"><i class="fa-solid fa-server"></i><h4>Backend & API</h4><p>Robust APIs, database design, and server logic.</p></div>
+      <div class="glass service-card" data-aos="fade-up" data-aos-delay="120"><i class="fa-solid fa-object-group"></i><h4>UI / UX Design</h4><p>Interfaces that feel intuitive and look premium.</p></div>
+      <div class="glass service-card" data-aos="fade-up" data-aos-delay="180"><i class="fa-solid fa-pen-nib"></i><h4>Brand Identity</h4><p>Logos, posters, banners, and social media design.</p></div>
+      <div class="glass service-card" data-aos="fade-up" data-aos-delay="0"><i class="fa-solid fa-film"></i><h4>Video & Motion</h4><p>Editing and motion graphics for reels and promos.</p></div>
+      <div class="glass service-card" data-aos="fade-up" data-aos-delay="60"><i class="fa-solid fa-wrench"></i><h4>Website Maintenance</h4><p>Ongoing updates, fixes, and performance tuning.</p></div>
+      <div class="glass service-card" data-aos="fade-up" data-aos-delay="120"><i class="fa-solid fa-file-powerpoint"></i><h4>Office & Presentation</h4><p>Word, Excel, PowerPoint documents built to impress.</p></div>
+      <div class="glass service-card" data-aos="fade-up" data-aos-delay="180"><i class="fa-solid fa-chalkboard-user"></i><h4>English Teaching</h4><p>Practical, conversation-focused language coaching.</p></div>
+      <div class="glass service-card" data-aos="fade-up" data-aos-delay="0"><i class="fa-solid fa-graduation-cap"></i><h4>Campus Assignments & Projects</h4><p>College & university assignments, mini-projects, and final-year builds done end to end.</p></div>
+      <div class="glass service-card" data-aos="fade-up" data-aos-delay="60"><i class="fa-solid fa-file-lines"></i><h4>Report & Documentation Writing</h4><p>Professionally formatted project reports, lab reports, and academic documentation.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<section id="skills">
+  <div class="container">
+    <span class="eyebrow" data-aos="fade-up">Technical Skills</span>
+    <h2 class="section-title" data-aos="fade-up">Tools I build <span>with daily</span></h2>
+    <p class="section-sub" data-aos="fade-up">A practical stack across frontend, backend, database, and creative tools.</p>
+
+    <div class="skills-tabs" data-aos="fade-up">
+      <div class="skill-tab active" data-tab="lang">Languages</div>
+      <div class="skill-tab" data-tab="fe">Frontend</div>
+      <div class="skill-tab" data-tab="be">Backend</div>
+      <div class="skill-tab" data-tab="tools">Tools</div>
+      <div class="skill-tab" data-tab="creative">Creative</div>
+    </div>
+
+    <div class="skills-panel active" id="lang" data-aos="fade-up">
+      <div class="glass skill-chip"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+      <div class="glass skill-chip"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+      <div class="glass skill-chip"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+      <div class="glass skill-chip"><i class="fa-brands fa-php"></i><span>PHP</span></div>
+      <div class="glass skill-chip"><span class="letter">Jv</span><span>Java</span></div>
+      <div class="glass skill-chip"><i class="fa-brands fa-python"></i><span>Python</span></div>
+      <div class="glass skill-chip"><span class="letter">C#</span><span>C#</span></div>
+    </div>
+    <div class="skills-panel" id="fe">
+      <div class="glass skill-chip"><i class="fa-brands fa-html5"></i><span>HTML</span></div>
+      <div class="glass skill-chip"><i class="fa-brands fa-css3-alt"></i><span>CSS</span></div>
+      <div class="glass skill-chip"><i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span></div>
+      <div class="glass skill-chip"><i class="fa-brands fa-react"></i><span>React.js</span></div>
+    </div>
+    <div class="skills-panel" id="be">
+      <div class="glass skill-chip"><i class="fa-brands fa-php"></i><span>PHP</span></div>
+      <div class="glass skill-chip"><i class="fa-brands fa-node-js"></i><span>Node.js</span></div>
+      <div class="glass skill-chip"><span class="letter">Ex</span><span>Express.js</span></div>
+      <div class="glass skill-chip"><i class="fa-solid fa-database"></i><span>REST APIs</span></div>
+    </div>
+    <div class="skills-panel" id="tools">
+      <div class="glass skill-chip"><i class="fa-solid fa-code"></i><span>VS Code</span></div>
+      <div class="glass skill-chip"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+      <div class="glass skill-chip"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+      <div class="glass skill-chip"><span class="letter">Xa</span><span>XAMPP</span></div>
+      <div class="glass skill-chip"><i class="fa-solid fa-paper-plane"></i><span>Postman</span></div>
+      <div class="glass skill-chip"><i class="fa-brands fa-npm"></i><span>npm</span></div>
+    </div>
+    <div class="skills-panel" id="creative">
+      <div class="glass skill-chip"><i class="fa-brands fa-adobe"></i><span>Photoshop</span></div>
+      <div class="glass skill-chip"><i class="fa-brands fa-adobe"></i><span>Illustrator</span></div>
+      <div class="glass skill-chip"><i class="fa-brands fa-adobe"></i><span>Premiere Pro</span></div>
+      <div class="glass skill-chip"><i class="fa-brands fa-adobe"></i><span>After Effects</span></div>
+      <div class="glass skill-chip"><span class="letter">Cc</span><span>CapCut</span></div>
+    </div>
+
+    <div class="skill-bars">
+      <div class="skill-bar-item"><span>PHP / MySQL <b>92%</b></span><div class="bar-track"><div class="bar-fill" data-width="92"></div></div></div>
+      <div class="skill-bar-item"><span>JavaScript <b>85%</b></span><div class="bar-track"><div class="bar-fill" data-width="85"></div></div></div>
+      <div class="skill-bar-item"><span>UI / UX Design <b>88%</b></span><div class="bar-track"><div class="bar-fill" data-width="88"></div></div></div>
+      <div class="skill-bar-item"><span>React.js <b>75%</b></span><div class="bar-track"><div class="bar-fill" data-width="75"></div></div></div>
+      <div class="skill-bar-item"><span>Adobe Suite <b>80%</b></span><div class="bar-track"><div class="bar-fill" data-width="80"></div></div></div>
+      <div class="skill-bar-item"><span>Video Editing <b>78%</b></span><div class="bar-track"><div class="bar-fill" data-width="78"></div></div></div>
+    </div>
+  </div>
+</section>
+
+
+<section id="experience" style="background:var(--bg-alt);">
+  <div class="container">
+    <span class="eyebrow" data-aos="fade-up">Experience</span>
+    <h2 class="section-title" data-aos="fade-up">Where I've <span>worked & built</span></h2>
+    <div class="timeline" data-aos="fade-up">
+      <div class="tl-item"><div class="tl-date">2025 — Present</div><h4>Freelance Full Stack Developer</h4><p>Designing and building multi-module PHP/MySQL systems for academic and small business clients, from database schema to deployment.</p></div>
+      <div class="tl-item"><div class="tl-date">2024 — 2025</div><h4>UI/UX & Creative Design</h4><p>Delivered brand identities, posters, and social media assets while refining a component-driven design workflow.</p></div>
+      <div class="tl-item"><div class="tl-date">2025 - Present</div><h4>IT Student Projects</h4><p>Built collaborative team projects including management systems and OCR-driven academic tools.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<section id="projects">
+  <div class="container">
+    <span class="eyebrow" data-aos="fade-up">Featured Work</span>
+    <h2 class="section-title" data-aos="fade-up">Selected <span>Projects</span></h2>
+    <p class="section-sub" data-aos="fade-up">A mix of management systems, booking platforms, and applied tools built end to end.</p>
+
+    <div class="filter-row" data-aos="fade-up">
+      <div class="filter-btn active" data-filter="all">All</div>
+      <div class="filter-btn" data-filter="web">Web Systems</div>
+      <div class="filter-btn" data-filter="mgmt">Management</div>
+      <div class="filter-btn" data-filter="tool">Tools</div>
+      <div class="filter-btn" data-filter="ai">AI</div>
+    </div>
+
+    <div class="projects-grid" id="projectsGrid">
+      
+    </div>
+  </div>
+</section>
+
+
+<section id="certificates">
+  <div class="container">
+    <span class="eyebrow" data-aos="fade-up">Certificates</span>
+    <h2 class="section-title" data-aos="fade-up">Learning, <span>verified</span></h2>
+    <p class="section-sub" data-aos="fade-up">Click a certificate to view details and verify it on LinkedIn.</p>
+    <div class="cert-grid" id="certGrid">
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section id="education" style="background:var(--bg-alt);">
+  <div class="container">
+    <span class="eyebrow" data-aos="fade-up">Education</span>
+    <h2 class="section-title" data-aos="fade-up">Academic <span>Background</span></h2>
+    <div class="timeline" data-aos="fade-up">
+      <div class="tl-item"><div class="tl-date">2025 — Present</div><h4>Diploma in Information Technology</h4><p>Coursework spanning software engineering, databases, and web Development,applied through team-based capstone projects.</p></div>
+      <div class="tl-item"><div class="tl-date">2022 - Present</div><h4>Self Learning Technology Stream and All Machine Languages and Software Engineering, databases, and web Development 
+And Editing  </h4><p>Built foundational knowledge in ICT and engineering technology.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<section id="testimonials">
+  <div class="container">
+    <span class="eyebrow" data-aos="fade-up">Testimonials</span>
+    <h2 class="section-title" data-aos="fade-up">What people <span>say</span></h2>
+    <div class="testi-track" data-aos="fade-up">
+      <div class="glass testi-card"><i class="fa-solid fa-quote-left quote"></i><p>Farhan translated a messy set of requirements into a clean, working system faster than we expected.</p><div class="testi-person"><div class="testi-avatar">R</div><div><h5>ALF.Reeshma Begum, Team Lead</h5><span>Event Management Booking System</span></div></div></div>
+      <div class="glass testi-card"><i class="fa-solid fa-quote-left quote"></i><p>Great eye for UI detail — the dashboard felt premium without being overdesigned.</p><div class="testi-person"><div class="testi-avatar">S</div><div><h5>TJ.Nazeefa, Coordinator</h5><span>Online BookStore System</span></div></div></div>
+      <div class="glass testi-card"><i class="fa-solid fa-quote-left quote"></i><p>Reliable, communicative, and genuinely enjoys solving backend problems.</p><div class="testi-person"><div class="testi-avatar">A</div><div><h5>MFF.Nuha Begum, Collaborator</h5><span>Online Clinic Management System</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+
+<section id="leadership" style="background:var(--bg-alt);">
+  <div class="container">
+    <span class="eyebrow" data-aos="fade-up">Client Leadership</span>
+    <h2 class="section-title" data-aos="fade-up">Trusted by <span>founders & CEOs</span></h2>
+    <p class="section-sub" data-aos="fade-up">Feedback from company leaders FARVO has partnered with on web systems and brand work.</p>
+
+    <div class="ceo-grid">
+      <div class="glass ceo-card" data-aos="fade-up" data-aos-delay="0">
+        <img class="ceo-avatar" src="Aflan.-photo.jpeg" alt="Aflan">
+        <p class="ceo-quote">"FARVO turned our idea into a working product fast, without cutting corners on quality. Mohamed genuinely cares about getting the details right."</p>
+        <div class="ceo-person"><h5>ALM.AFLAN</h5><span>Founder, AlmaSpark</span></div>
+      </div>
+      <div class="glass ceo-card" data-aos="fade-up" data-aos-delay="60">
+        <img class="ceo-avatar" src="Saathir-photo.jpeg" alt="Saathir">
+        <p class="ceo-quote">"Clear communication from the first call to final delivery. Our platform runs smoother than we imagined it could."</p>
+        <div class="ceo-person"><h5>MHM.SAATHIR</h5><span>Founder, Lenzora Graphics</span></div>
+      </div>
+      <div class="glass ceo-card" data-aos="fade-up" data-aos-delay="120">
+        <img class="ceo-avatar" src="Hakkam-photo.jpeg" alt="Hakkam">
+        <p class="ceo-quote">"Reliable, sharp with design decisions, and always honest about timelines. That kind of trust is hard to find."</p>
+        <div class="ceo-person"><h5>MEM.HAKKAM</h5><span>Founder, Haksiya Innovations</span></div>
+      </div>
+      <div class="glass ceo-card" data-aos="fade-up" data-aos-delay="180">
+        <img class="ceo-avatar" src="Afrar-photo.jpeg" alt="Afrar">
+        <p class="ceo-quote">"FARVO rebuilt our booking platform from scratch and it just works — fewer support tickets, faster checkout."</p>
+        <div class="ceo-person"><h5>IM.AFRAR</h5><span>Co-Founder and lead designer, Haksiya Innovations</span></div>
+      </div>
+      <div class="glass ceo-card" data-aos="fade-up" data-aos-delay="240">
+        <img class="ceo-avatar" src="Afsan-photo.jpeg" alt="Afsan">
+        <p class="ceo-quote">"From brand identity to the booking system itself, FARVO handled our whole digital presence with one consistent vision."</p>
+        <div class="ceo-person"><h5>ARM.AFSAN</h5><span>CEO, ARMA Creation</span></div>
+      </div>
+      <div class="glass ceo-card" data-aos="fade-up" data-aos-delay="300">
+        <img class="ceo-avatar" src="Ruhaimy-photo.jpeg" alt="Ruhaimy">
+        <p class="ceo-quote">"Reliable, on schedule, and honest about tradeoffs. That's rare to find in a young developer."</p>
+        <div class="ceo-person"><h5>J.RUHAIMY AHAMED</h5><span>Co-Founder and designer, Haksiya Innovations</span></div>
+      </div>
+    </div>
+
+    <div class="glass founder-card" data-aos="fade-up">
+      <img src="farhan-photo.jpeg" alt="Mohamed Farhan — Founder & CEO of FARVO" class="founder-photo">
+      <div class="founder-body">
+        <span class="eyebrow" style="margin-bottom:6px;">FARVO Leadership</span>
+        <h3>Mohamed Farhan</h3>
+        <p class="founder-role">Founder & CEO, FARVO</p>
+        <p class="founder-bio">Mohamed Farhan founded FARVO to bring full stack development, UI/UX design, and creative production under one roof for clients and students alike. He leads every FARVO engagement personally — from database architecture to the final pixel.</p>
+        <div class="founder-tags">
+          <span><i class="fa-solid fa-code"></i> Full Stack Development</span>
+          <span><i class="fa-solid fa-object-group"></i> UI/UX Design</span>
+          <span><i class="fa-solid fa-graduation-cap"></i> Academic Projects</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="goals">
+  <div class="container two-col">
+    <div data-aos="fade-right">
+      <span class="eyebrow">Career Goals</span>
+      <h2 class="section-title">Where I'm <span>headed</span></h2>
+      <div style="display:grid;gap:16px;margin-top:20px;">
+        <div class="glass goal-card"><i class="fa-solid fa-briefcase"></i><div><h4>Professional Software Engineer</h4><p>Build production systems at scale in a strong engineering team.</p></div></div>
+        <div class="glass goal-card"><i class="fa-solid fa-cloud"></i><div><h4>Cloud & Backend Architecture</h4><p>Grow into cloud infrastructure and system design.</p></div></div>
+        <div class="glass goal-card"><i class="fa-brands fa-git-alt"></i><div><h4>Open Source Contributor</h4><p>Give back through consistent, meaningful contributions.</p></div></div>
+      </div>
+    </div>
+    <div data-aos="fade-left">
+      <span class="eyebrow">Currently Learning</span>
+      <h2 class="section-title">Leveling <span>up</span></h2>
+      <div class="learn-pills" style="margin-top:20px;">
+        <div class="glass learn-pill"><span class="pulse"></span>React</div>
+        <div class="glass learn-pill"><span class="pulse"></span>Next.js</div>
+        <div class="glass learn-pill"><span class="pulse"></span>TypeScript</div>
+        <div class="glass learn-pill"><span class="pulse"></span>Docker</div>
+        <div class="glass learn-pill"><span class="pulse"></span>AWS</div>
+        <div class="glass learn-pill"><span class="pulse"></span>System Design</div>
+        <div class="glass learn-pill"><span class="pulse"></span>Flutter</div>
+        <div class="glass learn-pill"><span class="pulse"></span>DevOps</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="faq" style="background:var(--bg-alt);">
+  <div class="container">
+    <span class="eyebrow" data-aos="fade-up">FAQ</span>
+    <h2 class="section-title" data-aos="fade-up">Common <span>Questions</span></h2>
+    <div style="max-width:760px;" data-aos="fade-up">
+      <div class="faq-item open">
+        <div class="faq-q">What services do you offer? <i class="fa-solid fa-plus"></i></div>
+        <div class="faq-a"><p>Full stack web development, UI/UX design, database design, and creative/graphic & video editing.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Do you work with teams? <i class="fa-solid fa-plus"></i></div>
+        <div class="faq-a"><p>Yes — I regularly work in multi-developer team structures with clear module ownership and version control.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">What's your typical stack? <i class="fa-solid fa-plus"></i></div>
+        <div class="faq-a"><p>PHP/MySQL or Node.js/Express on the backend, React or vanilla JS on the frontend, depending on project needs.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Are you available for freelance work? <i class="fa-solid fa-plus"></i></div>
+        <div class="faq-a"><p>Yes, I'm currently open to freelance projects and internship opportunities.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact">
+  <div class="container contact-grid">
+    <div data-aos="fade-right">
+      <span class="eyebrow">Get In Touch</span>
+      <h2 class="section-title">Let's build <span>something</span></h2>
+      <p class="section-sub" style="margin-bottom:34px;">Have a project in mind? Reach out and let's talk details.</p>
+      <a href="mailto:farhanfarvo@gmail.com" class="contact-info-item"><div class="ic"><i class="fa-solid fa-envelope"></i></div><div><h5>Email</h5><p>farhanfarvo@gmail.com</p></div></a>
+      <a href="https://wa.me/94773042864" target="_blank" rel="noopener" class="contact-info-item"><div class="ic"><i class="fa-brands fa-whatsapp"></i></div><div><h5>WhatsApp</h5><p>+94 77 304 2864</p></div></a>
+      <div class="contact-info-item"><div class="ic"><i class="fa-solid fa-location-dot"></i></div><div><h5>Location</h5><p>Sainthamaruthu, Sri Lanka</p></div></div>
+      <div class="map-embed glass">
+        <iframe src="https://maps.google.com/maps?q=Sainthamaruthu%2C%20Sri%20Lanka&t=&z=12&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;filter:grayscale(1) invert(.92) contrast(.9);" loading="lazy"></iframe>
+      </div>
+    </div>
+    <div class="glass contact-form" data-aos="fade-left">
+      <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact">
+        <p style="display:none;"><label>Don't fill this out if you're human: <input name="bot-field"></label></p>
+        <div class="form-row">
+          <div class="form-group"><label>Name</label><input type="text" name="name" required placeholder="Your name"></div>
+          <div class="form-group"><label>Email</label><input type="email" name="email" required placeholder="your@email.com"></div>
+        </div>
+        <div class="form-group" style="margin-bottom:16px;"><label>Subject</label><input type="text" name="subject" placeholder="Project inquiry"></div>
+        <div class="form-group" style="margin-bottom:20px;"><label>Message</label><textarea rows="5" name="message" required placeholder="Tell me about your project..."></textarea></div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo"><img src="farvo-logo.png" alt="FARVO logo" class="logo-mark">FAR<span>VO</span></a>
+        <p>Full Stack Web Developer & UI/UX Designer building premium, production-ready digital products.</p>
+      </div>
+      <div class="footer-col"><h5>Navigate</h5><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#contact">Contact</a><a href="index.html">Company</a></div>
+      <div class="footer-col"><h5>Services</h5><a href="#services">Web Development</a><a href="#services">UI/UX Design</a><a href="#services">Creative Editing</a></div>
+      <div class="footer-col"><h5>Connect</h5><a href="https://www.linkedin.com/in/mohamedfarhan-it" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:farhanfarvo@gmail.com">Email</a></div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 FARVO — Mohamed Farhan. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/mohamedfarhan-it" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://wa.me/94773042864" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="mailto:farhanfarvo@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="back-top" id="backTop"><i class="fa-solid fa-arrow-up" style="color:#fff;"></i></div>
+
+
+<script src="shared.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+
+<script>
+
+window.addEventListener('load',()=>{
+  setTimeout(()=>document.getElementById('loader').classList.add('hide'),900);
+});
+
+
+AOS.init({duration:800,once:true,easing:'ease-out-cubic'});
+
+
+const dot=document.querySelector('.cursor-dot'), ring=document.querySelector('.cursor-ring'), glow=document.querySelector('.mouse-glow');
+let mx=0,my=0,rx=0,ry=0;
+window.addEventListener('mousemove',e=>{
+  mx=e.clientX; my=e.clientY;
+  dot.style.left=mx+'px'; dot.style.top=my+'px';
+  glow.style.left=mx+'px'; glow.style.top=my+'px';
+});
+function ringLoop(){ rx+=(mx-rx)*0.15; ry+=(my-ry)*0.15; ring.style.left=rx+'px'; ring.style.top=ry+'px'; requestAnimationFrame(ringLoop); }
+ringLoop();
+document.querySelectorAll('a,button,.btn,[data-tilt],.filter-btn,.skill-tab,.faq-q,.cert-card').forEach(el=>{
+  el.addEventListener('mouseenter',()=>ring.classList.add('hover'));
+  el.addEventListener('mouseleave',()=>ring.classList.remove('hover'));
+});
+
+
+if(window.VanillaTilt){ VanillaTilt.init(document.querySelectorAll('[data-tilt]'),{max:12,speed:400,glare:true,'max-glare':0.2}); }
+
+
+if(window.Typed){
+  new Typed('#typed',{
+    strings:['Full Stack Developer','UI/UX Designer','Creative Editor','IT Student'],
+    typeSpeed:55, backSpeed:30, backDelay:1400, loop:true
+  });
+}
+
+
+const canvas=document.getElementById('particles'), ctx=canvas.getContext('2d');
+let W,H,particles=[];
+function resize(){W=canvas.width=window.innerWidth;H=canvas.height=window.innerHeight;}
+resize(); window.addEventListener('resize',resize);
+for(let i=0;i<60;i++){particles.push({x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.6+0.4,vx:(Math.random()-.5)*.25,vy:(Math.random()-.5)*.25,o:Math.random()*.5+.1});}
+function drawParticles(){
+  ctx.clearRect(0,0,W,H);
+  particles.forEach(p=>{
+    p.x+=p.vx; p.y+=p.vy;
+    if(p.x<0||p.x>W)p.vx*=-1; if(p.y<0||p.y>H)p.vy*=-1;
+    ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+    ctx.fillStyle=`rgba(255,59,59,${p.o})`; ctx.fill();
+  });
+  requestAnimationFrame(drawParticles);
+}
+drawParticles();
+
+
+const header=document.getElementById('header'), backTop=document.getElementById('backTop');
+window.addEventListener('scroll',()=>{
+  header.classList.toggle('scrolled',window.scrollY>40);
+  backTop.classList.toggle('show',window.scrollY>500);
+});
+backTop.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+
+
+const mobileMenu=document.getElementById('mobileMenu');
+document.getElementById('burgerBtn').addEventListener('click',()=>mobileMenu.classList.add('open'));
+document.getElementById('mobileClose').addEventListener('click',()=>mobileMenu.classList.remove('open'));
+mobileMenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileMenu.classList.remove('open')));
+
+
+const modeToggle=document.getElementById('modeToggle');
+modeToggle.addEventListener('click',()=>{
+  document.documentElement.classList.toggle('light');
+  const icon=modeToggle.querySelector('i');
+  icon.className=document.documentElement.classList.contains('light')?'fa-solid fa-sun':'fa-solid fa-moon';
+});
+
+
+const counters=document.querySelectorAll('.counter');
+const counterObserver=new IntersectionObserver((entries)=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      const el=entry.target, target=+el.dataset.target; let cur=0;
+      const step=()=>{ cur+=Math.ceil(target/40); if(cur>=target){el.textContent=target;}else{el.textContent=cur;requestAnimationFrame(step);} };
+      step(); counterObserver.unobserve(el);
+    }
+  });
+},{threshold:0.5});
+counters.forEach(c=>counterObserver.observe(c));
+
+
+const bars=document.querySelectorAll('.bar-fill');
+const barObserver=new IntersectionObserver((entries)=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){ entry.target.style.width=entry.target.dataset.width+'%'; barObserver.unobserve(entry.target); }
+  });
+},{threshold:0.4});
+bars.forEach(b=>barObserver.observe(b));
+
+
+document.querySelectorAll('.skill-tab').forEach(tab=>{
+  tab.addEventListener('click',()=>{
+    document.querySelectorAll('.skill-tab').forEach(t=>t.classList.remove('active'));
+    document.querySelectorAll('.skills-panel').forEach(p=>p.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById(tab.dataset.tab).classList.add('active');
+  });
+});
+
+
+renderProjects(document.getElementById('projectsGrid'));
+renderCerts(document.getElementById('certGrid'));
+
+document.querySelectorAll('.faq-q').forEach(q=>{
+  q.addEventListener('click',()=>{
+    const item=q.parentElement;
+    document.querySelectorAll('.faq-item').forEach(i=>{ if(i!==item) i.classList.remove('open'); });
+    item.classList.toggle('open');
+  });
+});
+
+
+function encodeFormData(data){
+  return Object.keys(data).map(key=>encodeURIComponent(key)+"="+encodeURIComponent(data[key])).join("&");
+}
+
+document.getElementById('contactForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  const form=this;
+  const btn=form.querySelector('button');
+  const original=btn.innerHTML;
+  btn.disabled=true;
+  btn.innerHTML='Sending... <i class="fa-solid fa-spinner fa-spin"></i>';
+
+  const formData=Object.fromEntries(new FormData(form).entries());
+
+  fetch('/',{
+    method:'POST',
+    headers:{'Content-Type':'application/x-www-form-urlencoded'},
+    body:encodeFormData(formData)
+  })
+    .then(res=>{
+      if(res.ok){
+        btn.innerHTML='Sent! <i class="fa-solid fa-check"></i>';
+        form.reset();
+      } else {
+        btn.innerHTML='Failed, try again <i class="fa-solid fa-triangle-exclamation"></i>';
+      }
+    })
+    .catch(()=>{
+      btn.innerHTML='Failed, try again <i class="fa-solid fa-triangle-exclamation"></i>';
+    })
+    .finally(()=>{
+      setTimeout(()=>{ btn.innerHTML=original; btn.disabled=false; },2500);
+    });
+});
+
+
+if(window.gsap){
+  gsap.from('.hero-tag,.hero h1,.hero-role,.hero .desc,.hero-brand-card,.hero-btns,.hero-socials',{
+    y:30,opacity:0,duration:0.7,stagger:0.1,ease:'power3.out',delay:0.15
+  });
+}
+</script>
+</body>
+</html>
