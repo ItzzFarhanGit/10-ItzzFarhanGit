@@ -20,7 +20,7 @@ const PROJECTS=[
   {t:"Medical Laboratory Management System",c:"mgmt",tag:"Management",d:"Lab test requests, results, and report generation.",stack:["PHP","MySQL"],img:"Medical Laboratory Management System.png"},
   {t:"College Management System (OCR)",c:"tool",tag:"Tool",d:"Tesseract OCR pipeline extracting grades into official transcripts.",stack:["PHP","Tesseract","MySQL"],img:"College Management System.png"},
   {t:"ShoeLand — Online Shoe Store",c:"web",tag:"E-Commerce",d:"Online shoe store with new arrivals, collections, gallery and customer login.",stack:["PHP","MySQL","Bootstrap"],img:"shoeland.png",live:"http://farvo-shoeland.atwebpages.com/index.php"},
-  {t:"FARVO AI Chatbot",c:"ai",tag:"AI Project",d:"AI assistant powered by Google Gemini that writes, codes, explains and plans. Sign in and chats follow you from phone to desktop.",stack:["Gemini AI","JavaScript","Vercel"],img:"farvo-ai-chatbot.png",live:"https://farvo-ai-chatbot.vercel.app"}
+  {t:"FARVO AI Chatbot",c:"ai",tag:"AI Project",d:"AI assistant powered by Google Gemini that writes, codes, explains and plans. Sign in and chats follow you from phone to desktop.",stack:["Gemini AI","JavaScript","Vercel"],img:"farvo-ai-chatbot.png",live:"https://farvo-ai-chatbot.vercel.app"},
   {t:"FARVO Prompt",c:"ai",tag:"AI Tool",d:"AI prompt builder that turns your idea into a ready-to-use prompt. Type in English, Tamil, Sinhala, Hindi or Tanglish and copy the result.",stack:["AI","JavaScript","Vercel"],img:"FARVO Prompt AI Website.png",live:"https://farvo-prompt.vercel.app"}
 ];
 
@@ -28,8 +28,9 @@ const LI='https://www.linkedin.com/in/mohamedfarhan-it/details/certifications/';
 /* Format: "Title|Issuer|Certificate file name" inside G(date,...) OR "Title|Issuer|Date|File name". Files live in certificates/ */
 const G=(d,...a)=>a.map(s=>{const[t,i,f]=s.split('|');return[t,i,d,f].join('|')});
 const CERTS=[
+  ...G('Oct 2026',
+  'Canva Essentials|Canva|farhan-canva-essentials-certificate.jpg'),    
 ...G('Sep 2026',
-  'Canva Essentials|Canva|farhan-canva-essentials-certificate.jpg',
   'Professional Networking for Career Growth|HP LIFE|farhan-hp-life-professional-networking-for-career-growth-certificate.jpg',
   'Human Resource Management|Harwest International Business College|farhan-harwest-international-business-college-hrm-certificate.jpg',
   'Microsoft Security Essentials: Concepts, Solutions, and AI-Powered Protection|LinkedIn Learning|farhan-linkedln-learning-microsoft-security-essentials-concepts-solutions-and-aipowered-protection-certificate.jpg',
