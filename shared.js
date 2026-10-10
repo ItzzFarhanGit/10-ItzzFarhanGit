@@ -29,6 +29,10 @@ const LI='https://www.linkedin.com/in/mohamedfarhan-it/details/certifications/';
 const G=(d,...a)=>a.map(s=>{const[t,i,f]=s.split('|');return[t,i,d,f].join('|')});
 const CERTS=[
   ...G('Oct 2026',
+  'Essentials of Prompt Engineering|AWS Training & Certification|farhan-aws-essentials-of-prompt-engineering-certificate.jpg',
+  'Foundations of Prompt Engineering|AWS Training & Certification|farhan-aws-foundations-of-prompt-engineering-certificate.jpg',
+  'Cloud Security Essentials for Executives|AWS Training & Certification|farhan-aws-cloud-security-essentials-for-executives-certificate.jpg',
+  'AWS Student Builder Group at ICBT Campus|AWS Student Builder Groups|farhan-aws-student-builder-group-certificate.jpg',
   'Canva Essentials|Canva|farhan-canva-essentials-certificate.jpg'),    
 ...G('Sep 2026',
   'Professional Networking for Career Growth|HP LIFE|farhan-hp-life-professional-networking-for-career-growth-certificate.jpg',
